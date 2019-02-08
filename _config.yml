@@ -1,0 +1,19 @@
+name: Jekyll Themes
+url: "https://busyppp.github.io"
+baseurl: "" # the subpath of your site, e.g. "/blog"
+
+description: Insert tagline here
+
+permalink: /themes/:title/
+
+remote_theme : mattvh/jekyllthemes
+gems: [jekyll-paginate]
+
+highlighter: pygments
+paginate: 20
+
+markdown: rdiscount
+rdiscount:
+    extensions: ['smart']
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile', 'vendor']
